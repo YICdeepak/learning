@@ -1,0 +1,96 @@
+#setup{
+    background-color: rgb(193, 186, 186);
+    color: aliceblue;
+    text-align: center;
+    float: center;
+    padding: 300px;
+    width: 90%;
+    gap: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0 );   
+}
+#setup1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    float: center;
+    width: 100%;
+}
+#quiz{
+    background-color: rgb(28, 15, 50);
+    color: rgb(25, 120, 127);
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding: 10px;
+    float: center;
+    width: 100%;    
+}
+#linkedin{
+    background-color: rgb(0, 0, 0);
+    color: rgb(25, 120, 127);
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding: 10px;
+    float: center;
+    width: 100%;
+}
+#abt{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+#linkedin{
+    background-color: rgb(164, 74, 58);
+    color: white;
+    text-align: center;
+    height: 10px;
+}
+#image{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#image img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+}
+#questions{
+    background-color: rgb(28, 15, 50);
+}
+#map{
+    background-color: rgb(255, 255, 255);
+    gap: 100px;
+}
+#audio{
+    background-color: rgb(136, 26, 26);
+    color: rgb(25, 120, 127);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding: 10px;
+    float: center;
+    width: 100%;
+}
+#video{
+    background-color: rgb(142, 77, 255);
+    color: rgb(25, 120, 127);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    padding: 10px;
+    float: center;
+    width: 100%;
+    }

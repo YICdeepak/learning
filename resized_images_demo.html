@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resized Images Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .image-container {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .image-info {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Size Comparison</h1>
+    
+    <div class="comparison">
+        <div class="image-container">
+            <h3>Original Image</h3>
+            <img src="ig.png" alt="Original image">
+            <div class="image-info">
+                <strong>Size:</strong> 207.62 KB<br>
+                <strong>Dimensions:</strong> 598×604 pixels
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <h3>Small (Recommended)</h3>
+            <img src="ig_small.png" alt="Small resized image">
+            <div class="image-info">
+                <strong>Size:</strong> 56.46 KB<br>
+                <strong>Dimensions:</strong> 297×300 pixels<br>
+                <strong>Reduction:</strong> 72.8% smaller
+            </div>
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <h3>Medium Size</h3>
+        <img src="ig_medium.png" alt="Medium resized image">
+        <div class="image-info">
+            <strong>Size:</strong> 97.33 KB<br>
+            <strong>Dimensions:</strong> 445×450 pixels<br>
+            <strong>Reduction:</strong> 53.1% smaller
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <h3>Large Size</h3>
+        <img src="ig_large.png" alt="Large resized image">
+        <div class="image-info">
+            <strong>Size:</strong> 135.54 KB<br>
+            <strong>Dimensions:</strong> 594×600 pixels<br>
+            <strong>Reduction:</strong> 34.7% smaller
+        </div>
+    </div>
+    
+    <div style="background: #e8f4f8; padding: 15px; border-radius: 8px; margin-top: 30px;">
+        <h3>How to Use</h3>
+        <p>To use the resized images in your project, simply replace the image source in your HTML:</p>
+        <code>
+            <img src="ig_small.png" alt="Resized image">
+        </code>
+        <p>The <strong>ig_small.png</strong> is recommended as it provides the best size reduction (72.8% smaller) while maintaining good quality.</p>
+    </div>
+</body>
+</html>
