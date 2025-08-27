@@ -44,6 +44,7 @@
     width: 100%;
 }
 #abt{
+    text-transform:capitalize;
     background-color: tomato;
     color: white;
     text-align: center;
@@ -110,4 +111,19 @@ p:hover{
 }
 myyt:hover{
     color: rgb(25, 120, 127);
+}
+#box1{
+    background-color:red;
+    width: 70px;
+    height: 70px;
+}
+#box2{
+    background-color:green;
+    width: 70px;
+    height: 70px;
+}
+#box3{
+    background-color:blue;
+    width: 70px;
+    height: 70px;
 }

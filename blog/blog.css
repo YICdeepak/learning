@@ -1,0 +1,62 @@
+
+        body {font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #fdfdfd;;
+
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2980b9;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .schedule, .contact {
+            background-color: #f4f6f7;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 5px solid #2980b9;
+            border-radius: 8px;
+        }
+        #title{
+            background-color: orange;
+        }
+        h1,h2{
+            color: blue;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(139, 0, 0);
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        nav a :visited{
+            color: pink;
+        }
+        table{
+            margin: auto;
+            background-color: #fff;
+            border-collapse: collapse;
+            border: 2px solid #000;
+            text-align: center;
+            width: 60%;
+        }
